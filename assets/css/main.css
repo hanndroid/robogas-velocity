@@ -293,12 +293,42 @@ form {
   margin-bottom: 2em;
 }
 
+#intro > div.container > header > h2 {
+  padding-bottom: 5rem;
+}
+
+#highlights > div.container > div > header > h2 {
+  padding-top: 7rem;
+}
+
+#footer > div.container > header > h2 {
+  padding-top: 3rem;
+}
+
+#footer > div.container > div > div:nth-child(1) > section > h3 {
+  font-size: larger;
+  padding-bottom: 1rem;
+}
+
+#intro > div.container {
+  color: #fff;
+  padding-top: 7rem;
+}
+
 #footer > div.container {
   margin-bottom: 5rem;
 }
 
+#intro > div.container > div > div:nth-child(1) > section > h3,
+#intro > div.container > div > div:nth-child(2) > section > h3,
+#intro > div.container > div > div:nth-child(3) > section > h3 {
+  font-size: large;
+  padding-bottom: 2rem;
+}
+
 .row.aln-center p {
   text-align: left;
+  font-size: large;
 }
 
 /* Container */
@@ -1701,7 +1731,6 @@ form ::-moz-focus-inner {
 }
 
 .image img {
-  display: block;
   width: 100%;
 }
 
