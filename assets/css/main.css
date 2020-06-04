@@ -214,7 +214,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  color: #484d55;
+  color: #0071bb;
 }
 
 h1 a,
@@ -305,9 +305,48 @@ form {
   padding-top: 3rem;
 }
 
-#footer > div.container > div > div:nth-child(1) > section > h3 {
+#footer > div.container > div > div:nth-child(1) > section > h3,
+#footer
+  > div.container
+  > div
+  > div:nth-child(2)
+  > section
+  > div
+  > div:nth-child(3)
+  > section
+  > p
+  > a,
+#footer
+  > div.container
+  > div
+  > div:nth-child(2)
+  > section
+  > div
+  > div:nth-child(4)
+  > section
+  > p {
   font-size: larger;
   padding-bottom: 1rem;
+}
+
+#footer
+  > div.container
+  > div
+  > div:nth-child(2)
+  > section
+  > div
+  > div:nth-child(1)
+  > section
+  > p,
+#footer > div.title,
+#intro > div.title,
+#intro > div.container > div > div:nth-child(3) > section > h3 > a,
+#intro > div.container > div > div:nth-child(2) > section > h3 > a,
+#intro > div.container > div > div:nth-child(1) > section > h3 > a,
+#intro > div.container > div > div:nth-child(3) > section > p,
+#intro > div.container > div > div:nth-child(2) > section > p,
+#intro > div.container > div > div:nth-child(1) > section > p {
+  font-size: larger;
 }
 
 #intro > div.container {
@@ -1815,7 +1854,7 @@ input[type="submit"].style1,
 input[type="reset"].style1,
 button.style1,
 .button.style1 {
-  background: #294ee1 url("images/overlay.png");
+  background: #0071bb url("images/overlay.png");
   color: #fff;
 }
 
@@ -1824,7 +1863,7 @@ input[type="submit"].style1:hover,
 input[type="reset"].style1:hover,
 button.style1:hover,
 .button.style1:hover {
-  background-color: black;
+  background-color: rgb(15, 142, 227);
 }
 
 input[type="button"].style1:active,
@@ -2144,13 +2183,13 @@ ul.actions.special {
 }
 
 .wrapper.style1 {
-  background: #e88630 url("images/overlay.png");
+  background: #0071bb url("images/overlay.png");
   color: #eee;
   color: rgba(255, 255, 255, 0.75);
 }
 
 .wrapper.style1 .title {
-  background: #e88630 url("images/overlay.png");
+  background: #0071bb url("images/overlay.png");
   color: #fff;
 }
 
@@ -2176,12 +2215,12 @@ ul.actions.special {
 }
 
 .wrapper.style3 {
-  background: #f3f3f3 url("images/overlay.png");
+  background: #fff url("images/overlay.png");
 }
 
 .wrapper.style3 .title {
-  background: #f3f3f3 url("images/overlay.png");
-  color: #484d55;
+  background: #fff url("images/overlay.png");
+  color: #f6921e;
 }
 
 .wrapper.style3 .image {
@@ -2227,7 +2266,7 @@ ul.actions.special {
 }
 
 .homepage #header {
-  height: 60em;
+  height: 80em;
 }
 
 /* Logo */
@@ -2268,7 +2307,7 @@ ul.actions.special {
   left: 0;
   width: 100%;
   text-align: center;
-  background: white;
+  background: white url("images/overlay.png");
 }
 
 img.logo {
@@ -2522,7 +2561,7 @@ img.logo {
 
 #footer header.style1 {
   padding-bottom: 6em;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
   border-bottom: solid 1px rgba(255, 255, 255, 0.05);
 }
 
