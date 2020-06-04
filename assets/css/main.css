@@ -10,7 +10,7 @@
 /*SVGS*/
 
 .image .svg-services {
-  width: 50%;
+  width: 40%;
 }
 
 html,
@@ -317,6 +317,10 @@ form {
 
 #footer > div.container {
   margin-bottom: 5rem;
+}
+
+#footer > div.title {
+  transform: translateY(1px);
 }
 
 #intro > div.container > div > div:nth-child(1) > section > h3,
