@@ -287,6 +287,10 @@ form {
   margin-bottom: 2em;
 }
 
+.row.aln-center p {
+  text-align: left;
+}
+
 /* Container */
 
 .container {
@@ -1561,7 +1565,7 @@ header.style1 h2 {
 }
 
 header.style1 p {
-  color: #b1b4b9;
+  color: #fff;
   display: block;
   margin: 1.15em 0 0 0;
   font-size: 1.3em;
@@ -1777,7 +1781,7 @@ input[type="submit"].style1:hover,
 input[type="reset"].style1:hover,
 button.style1:hover,
 .button.style1:hover {
-  background-color: #f98780;
+  background-color: black;
 }
 
 input[type="button"].style1:active,
@@ -2225,8 +2229,10 @@ ul.actions.special {
 }
 
 img.logo {
-  height: 20%;
-  width: 20%;
+  padding: 1rem;
+  float: left;
+  height: 35%;
+  width: 35%;
 }
 
 #nav > ul {
@@ -2377,7 +2383,7 @@ img.logo {
 }
 
 #highlights .highlight h3 {
-  color: #e97770;
+  color: #f7821b;
   margin: 0 0 0.75em 0;
   font-size: 1.15em;
   letter-spacing: 0.05em;
@@ -2388,9 +2394,8 @@ img.logo {
 /* Footer */
 
 #footer {
-  background: #282b34 url("images/overlay.png");
+  background: #f7821b url("images/overlay.png");
   color: #eee;
-  color: rgba(255, 255, 255, 0.5);
   padding-bottom: 6em;
 }
 
@@ -2416,8 +2421,9 @@ img.logo {
 #footer form input[type="password"],
 #footer form select,
 #footer form textarea {
-  background: #ccc;
+  background: #fff;
   box-shadow: none;
+  border: 1px solid black;
 }
 
 #footer form input[type="text"]:focus,
@@ -2463,7 +2469,7 @@ img.logo {
 }
 
 #footer .title {
-  background: #282b34 url("images/overlay.png");
+  background: #f7821b url("images/overlay.png");
   color: #eee;
 }
 
@@ -2592,6 +2598,13 @@ img.logo {
   }
 
   /* Footer */
+
+  #bottom-logos {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+  }
 
   #footer {
     padding-bottom: 4em;
