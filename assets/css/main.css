@@ -338,6 +338,7 @@ form {
   > div:nth-child(1)
   > section
   > p,
+#highlights > div.title,
 #footer > div.title,
 #intro > div.title,
 #intro > div.container > div > div:nth-child(3) > section > h3 > a,
@@ -2318,7 +2319,7 @@ img.logo {
 }
 
 #nav > ul {
-  display: inline-block;
+  float: right;
   border-radius: 0.35em;
   box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
   padding: 0 1.5em 0 1.5em;
@@ -2351,6 +2352,7 @@ img.logo {
   -ms-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
   outline: 0;
+  font-size: 120%;
 }
 
 #nav > ul > li:hover > a {
@@ -2476,6 +2478,15 @@ img.logo {
   width: 100%;
   text-align: center;
   margin-top: 3rem;
+}
+
+#bottom-logos .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#bottom-logos img {
+  max-height: 100px;
 }
 
 /* Footer */
