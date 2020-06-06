@@ -293,6 +293,7 @@ form {
 
 #intro > div.container > header > h2 {
   padding-bottom: 5rem;
+  font-size: 1.8em;
 }
 
 #highlights > div.container > div > header > h2 {
@@ -326,7 +327,7 @@ form {
   > div:nth-child(4)
   > section
   > p {
-  font-size: x-large;
+  font-size: larger;
   padding-bottom: 1rem;
 }
 
@@ -360,18 +361,6 @@ form {
   font-size: x-large;
 }
 
-#footer
-  > div.container
-  > div
-  > div:nth-child(2)
-  > section
-  > div
-  > div:nth-child(1)
-  > section
-  > h3 {
-  font-size: x-large;
-}
-
 #intro > div.container {
   color: #fff;
   padding-top: 7rem;
@@ -390,6 +379,10 @@ form {
 #intro > div.container > div > div:nth-child(3) > section > h3 {
   font-size: large;
   padding-bottom: 2rem;
+}
+
+#footer > div.container > div > div:nth-child(2) > section > div {
+  color: #fff;
 }
 
 .row.aln-center p {
