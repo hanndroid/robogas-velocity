@@ -2310,8 +2310,9 @@ section.highlight p {
 /* Nav */
 
 #nav {
+  height: 11rem;
   position: absolute;
-  display: block;
+  display: flex;
   top: 0em;
   left: 0;
   width: 100%;
@@ -2320,31 +2321,30 @@ section.highlight p {
 }
 
 img.logo {
+  height: 100%;
   padding: 1rem;
   float: left;
-  height: 35%;
-  width: 35%;
 }
 
-#nav > ul {
+#nav > div > ul {
   float: right;
   border-radius: 0.35em;
   box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
   padding: 0 1.5em 0 1.5em;
 }
 
-#nav > ul > li {
+#nav > div > ul > li {
   display: inline-block;
   text-align: center;
   padding: 0 1.5em 0 1.5em;
 }
 
-#nav > ul > li > ul {
+#nav > div > ul > li > ul {
   display: none;
 }
 
-#nav > ul > li > a,
-#nav > ul > li > span {
+#nav > div > ul > li > a,
+#nav > div > ul > li > span {
   display: block;
   color: #eee;
   color: #202127;
@@ -2363,13 +2363,24 @@ img.logo {
   font-size: 120%;
 }
 
-#nav > ul > li:hover > a {
+#nav > div > ul > li:hover > a {
   color: rgb(249, 140, 45);
 }
 
-#nav > ul > li.active > a,
-#nav > ul > li.active > span {
+#nav > div > ul > li.active > a,
+#nav > div > ul > li.active > span {
   color: #fff;
+}
+
+#nav > div {
+  height: 100%;
+  width: 50%;
+}
+
+#nav > div > ul {
+  margin: 0;
+  padding-top: 2rem;
+  height: 100%;
 }
 
 .dropotron {
