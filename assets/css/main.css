@@ -2034,6 +2034,10 @@ ul.actions.special {
   position: relative;
 }
 
+section.highlight p {
+  padding: 0 2rem;
+}
+
 @media screen and (min-width: 981px) {
   .feature-list > .row > :nth-child(-n + 2) > section {
     border-top: 0;
