@@ -2300,7 +2300,7 @@ section.highlight p {
   justify-content: center;
   position: relative;
   height: 24em;
-  background: url("../../images/banner.jpg") center center;
+  background: url("../../images/rsz_flame.jpg") center center;
   background-size: cover;
   padding: 0;
 }
@@ -2825,6 +2825,10 @@ img.logo {
     display: none;
   }
 
+  #logo p {
+    line-height: 1.5rem;
+  }
+
   /* Logo */
 
   #logo {
@@ -3091,6 +3095,7 @@ img.logo {
     font-size: 1.5em;
     letter-spacing: 0.075em;
     line-height: 1.25em;
+    padding-left: 1.5rem;
   }
 
   #footer > div.container > header > h2 {
