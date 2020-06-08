@@ -2654,6 +2654,10 @@ img.logo {
   background: #3d4249 url("images/overlay.png");
 }
 
+#footer .feature-list.small > h3 {
+  display: none;
+}
+
 /* Copyright */
 
 #copyright {
