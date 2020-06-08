@@ -2694,10 +2694,6 @@ img.logo {
   color: inherit;
 }
 
-#copyright a:hover {
-  color: #fff;
-}
-
 /* XLarge */
 
 @media screen and (max-width: 1680px) {
